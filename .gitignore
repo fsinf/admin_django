@@ -1,7 +1,9 @@
 *.sw[op]
 *.py[oc]
+localsettings.py
+*.sqlite3
 /bin/
 /include/
 /lib/
-/src/
 /pip-selfcheck.json
+/src/
