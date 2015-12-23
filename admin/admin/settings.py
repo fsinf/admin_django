@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'django_ca',
+    'django_reprepro',
 ]
 
 MIDDLEWARE_CLASSES = [
