@@ -1,3 +1,5 @@
 Django==1.9
 setuptools
 pip
+#-e git+https://github.com/mathiasertl/packagearchive.git#egg=packagearchive
+-e git+https://github.com/mathiasertl/django-ca.git#egg=django-ca
