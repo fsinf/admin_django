@@ -1,6 +1,6 @@
 from django.conf import settings
 
-_config = getattr(settings, 'ROUTER_CONFIG', {})
+_config = getattr(settings, 'APP_DATABASES', {})
 
 class AppRouter(object):
     """
