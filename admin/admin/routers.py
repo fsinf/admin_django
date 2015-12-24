@@ -28,4 +28,7 @@ class AppRouter(object):
         """Make sure the auth app only appears in the 'auth_db' database."""
         if settings.DEBUG is True:
             return None
-        return _config.get(model._meta.app_label)
+
+        if app_label in _config:
+            return db == _config.get(app_label)
+        return None
