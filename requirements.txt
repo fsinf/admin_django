@@ -1,5 +1,5 @@
 Django==1.9
 setuptools
 pip
+django-ca==1.0.0a1
 -e git+https://github.com/mathiasertl/django-reprepro.git#egg=django-reprepro
--e git+https://github.com/mathiasertl/django-ca.git#egg=django-ca
