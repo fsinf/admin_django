@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'django_object_actions',  # for django-ca
+
     'django_ca',
     'django_reprepro',
 ]
