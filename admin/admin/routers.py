@@ -2,6 +2,7 @@ from django.conf import settings
 
 _config = getattr(settings, 'APP_DATABASES', {})
 
+
 class AppRouter(object):
     """
     A router to control all database operations on models in the
